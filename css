@@ -11,6 +11,7 @@ h2, p {
 #profile {
     text-align: center;
     color: #FFFFFF;
+
 }
 
 .active-day {
@@ -19,4 +20,8 @@ h2, p {
 
 .inactive-day {
     color:#CCCCCC;
+}
+
+#streak {
+    list-style: none;
 }
