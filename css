@@ -8,11 +8,13 @@ h2, p {
     color: white;
 }
 
+
+}
+
 #profile {
     text-align: center;
     color: #FFFFFF;
     list-style: none;
-
 }
 
 .active-day {
@@ -25,4 +27,7 @@ h2, p {
 
 #streak {
     list-style: none;
+    background-color: white;
+    border-radius: 5px;
+    color: #676767;
 }
