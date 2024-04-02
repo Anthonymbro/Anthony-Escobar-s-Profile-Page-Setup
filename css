@@ -31,6 +31,9 @@ h2, p {
 }
 
 #streak {
+    display: inline;
+    margin: 5px;
+    padding: 5px;
     list-style: none;
     background-color: white;
     border-radius: 5px;
