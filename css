@@ -1,13 +1,13 @@
 body {
     background-color: darkslategrey;
-    font-family: Arial, "sans-serif"; v 
+    font-family: Arial, "sans-serif";
 }
 
-h2, p { 
-    text-align: center;  
+h2, p {
+    text-align: center;
     color: white;
 }
- 
+
 #profile {
     text-align: center;
     color: #FFFFFF;
@@ -21,10 +21,28 @@ h2, p {
 
 .active-day {
     color: #00cc00;
+    animation-name: pulse;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
 }
 
 .inactive-day {
     color:#CCCCCC;
+}
+
+@keyframes pulse {
+    0% {
+        font-size: 100%;
+        color: #00cc00;
+    }
+    50% {
+        font-size: 120%;
+        color: #00CC00;
+    }
+    100% {
+        font-size: 100%;
+        color: #00cc00;
+    }
 }
 
 #streak {
