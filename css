@@ -1,8 +1,14 @@
 body {
     background-color: DarkSlateGrey;
+    font-family: arial, san-serif;
 }
 
 h2, p {
     text-align: center;
     color: white;
+}
+
+#profile {
+    text-align: center;
+    color: #FFFFFF;
 }
