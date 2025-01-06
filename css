@@ -12,3 +12,11 @@ h2, p {
     text-align: center;
     color: #FFFFFF;
 }
+
+.active-day {
+    color: #00CC00;
+}
+
+.inactive-day {
+    color: #CCCCCC;
+}
