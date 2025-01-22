@@ -18,6 +18,10 @@ h2, p {
 
 #streak {
     list-style: none;
+    padding-top: 10px;
+    display: inline;
+    margin: 5px;
+    padding: 5px;
 }
 
 #streak ul {
