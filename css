@@ -29,6 +29,10 @@ h2, p {
     border-radius: 5px;
 }
 
+#streak li {
+    background-color: red;
+}
+
 #streak p {
     color: #676767;
 }
